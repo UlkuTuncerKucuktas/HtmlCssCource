@@ -1,0 +1,13 @@
+body{
+    font-family: sans-serif;
+}
+
+
+.main-header{
+    margin: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;}
+
+h1,h2,h3{
+    color: #1098ad;
+}

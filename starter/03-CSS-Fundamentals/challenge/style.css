@@ -1,0 +1,95 @@
+*{
+    font-family: sans-serif;
+}
+
+.price{
+    font-size: 25px;
+}
+
+.article{
+    border : 5px solid #000;
+    margin: 5%;
+    position: relative;
+}
+
+.card-button{
+width: 100%;
+}
+
+h2{
+    text-align: center;
+}
+
+h2::after{
+    content: "SALE";
+    position: absolute;
+    top: -20px;
+    left: -40px;
+    background-color: red;
+    color: #fff;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: lighter;
+   
+}
+
+
+
+.colors{
+    margin: 10px;
+    padding: 10px;
+}
+
+.red{
+    background-color: red;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+.blue{
+    background-color: blue;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+.green{
+    background-color: green;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+
+h3{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+a{
+    color: #000;
+}
+
+a:hover{
+    text-decoration: none;
+    color: blue;
+}

@@ -98,3 +98,16 @@ aside{
 text-align: center;
 }
 
+article{
+    float: left;
+    width: 800px;
+}
+
+aside{
+    float: right;
+    background-color: #f2f2f2;
+}
+
+footer{
+    clear: both;
+}
